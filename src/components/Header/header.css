@@ -1,0 +1,86 @@
+/* element styles */
+figure{
+    margin: 0rem;
+}
+ul{
+    margin: 0rem;
+    padding: 0rem;
+}
+li{
+    list-style-type: none;
+}
+/* class and id styles */
+#nav_container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 1rem;
+}
+#nav_cont_logolabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav_cont_label{
+    font-size: 28px;
+    font-weight: 500;
+}
+#nav_cont_linklist{
+    display: flex;
+}
+#nav_cont_icons{
+    display: flex;
+    position: relative;
+    margin-right: 1.2rem;
+}
+#nav_cont_logo{
+    width: 35px;
+    height: 35px;
+}
+#profile_icon{
+    width: 30px;
+    height: 30px;
+}
+#profile_icon_linklist{
+    position: absolute;
+    background-color: #fdefe6;
+}
+#profile_icon_list{
+    padding: 0.5rem;
+}
+.icon{
+    color: #0a1d37;
+    font-size: 24px;
+}
+.nav_cont_linklist_item{
+    margin-left: 2rem;
+    padding: 0.3rem;
+}
+.nav_cont_icon{
+    margin: 0rem;
+    margin-left: 1.2rem;
+    position: relative;
+}
+.nav_active{
+    font-weight: 600 !important;
+}
+.nav_cont_icon_amt{
+    position: absolute;
+    background-color: #0a1d37;
+    color: #ffffff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    left: 1rem;
+    font-size: 14px;
+    text-align: center;
+}
+.profile_icon_link{
+    font-weight: 400;
+    padding: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+

@@ -1,0 +1,17 @@
+#timer_cont{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+#timer_cont > section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+    
+}
+#timer_cont > section > label{
+    margin-bottom: 0.3rem;
+}

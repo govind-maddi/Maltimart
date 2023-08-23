@@ -1,0 +1,85 @@
+th,td{
+    padding: 0.5rem;
+}
+
+th{
+    color: #0a1d37;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+td{
+    color: #0a1d37;
+    font-weight: 500;
+}
+
+/* ------------------------------------------------ */
+#main_cont_cartbackimg{
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.562),rgba(0,0,0,.562)),url('../assets/images/common-section-bg-crop.jpg') no-repeat 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+#main_cont_cartbackimg > header{
+    font-size: 30px;
+    font-weight: 600;
+    color:#ffffff;
+}
+/* -------------------------------------------------- */
+#main_cont_cartinfo{
+    width: 90%;
+    margin:3rem auto;
+    display: flex;
+    
+}
+#carttable_cont{
+    width: 78%;
+    position: relative;
+}
+#carttable{
+    width: 100%;
+    text-align: left;
+}
+.cart_product_img > img{
+    width: 50px;
+    height: 50px;
+}
+#main_cont_cartbill{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#main_cont_cartbill > article{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+#main_cont_cartbill > article > label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+#main_cont_cartbill > button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #0a1d37;
+    padding: 0.4rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+#signin_info_label{
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}

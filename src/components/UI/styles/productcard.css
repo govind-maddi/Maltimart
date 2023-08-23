@@ -1,0 +1,37 @@
+#product_card_cont{
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+#product_card_info > label{
+    
+}
+#add_icon_cont{
+    background-color: #0a1d37;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.4rem;
+}
+#add_icon_cont > i{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+}
+#product_card_info > span{
+    font-weight: 500;
+}
+#product_card_info > section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#product_card_cont > img{
+    width: 100%;
+}

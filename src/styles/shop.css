@@ -1,0 +1,73 @@
+figure{
+    margin: 0rem;
+}
+select:focus{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+/* ----------------------------------------- */
+
+#main_cont_prodbackimg{
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.562),rgba(0,0,0,.562)),url('../assets/images/common-section-bg-crop.jpg') no-repeat 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+#main_cont_prodbackimg > header{
+    font-size: 30px;
+    font-weight: 600;
+    color:#ffffff;
+}
+/* ----------------------------------------- */
+
+#main_cont_searchrefine{
+    width: 90%;
+    margin:4rem auto;
+    display: flex;
+    align-items: center;
+}
+
+#search_cont{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+#search_cont > input{
+    width: 100%;
+    padding: 0.6rem;
+    color: #0a1d37;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px black solid;
+    box-shadow: none;
+}
+
+#search_cont > input::placeholder{
+    color :#0a1d37;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#search_cont > i{
+    font-size: 24px;
+    color: #0a1d37;
+    position: absolute;
+    right: 5px;
+    top: 1px;
+    cursor: pointer;
+}
+
+/* ----------------------------------------- */
+#main_cont_productgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+}
